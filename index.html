@@ -3,32 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Coffeemeet · Cafeteria &amp; Coworking em Parauapebas</title>
-  <meta name="description" content="Coffeemeet: cafeteria e coworking no Parque dos Carajás, Parauapebas (PA). Café, salgados, doces, brunch e o melhor espaço para reuniões. Barato do Dia por R$ 11,90.">
+  <title>Coffeemeet Parauapebas · Cafeteria e Coworking no Parque dos Carajás</title>
+  <meta name="description" content="Coffeemeet é cafeteria e coworking em Parauapebas (PA), no Parque dos Carajás. Cafés especiais, salgados, doces, brunch, Barato do Dia por R$ 11,90 e espaço para reuniões, trabalho e eventos. Reserve pelo WhatsApp.">
+  <meta name="keywords" content="cafeteria Parauapebas, coworking Parauapebas, café Parauapebas, espaço para reuniões Parauapebas, sala de reunião Parauapebas, brunch Parauapebas, Coffeemeet, Parque dos Carajás">
+  <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0e0c0a">
-  <meta property="og:title" content="Coffeemeet · Cafeteria & Coworking">
-  <meta property="og:description" content="O papo é bom. O intervalo é melhor. Chama pra Coffeemeet.">
+  <meta name="geo.region" content="BR-PA">
+  <meta name="geo.placename" content="Parauapebas">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Coffeemeet">
+  <meta property="og:title" content="Coffeemeet · Cafeteria e Coworking em Parauapebas">
+  <meta property="og:description" content="O papo é bom. O intervalo é melhor. Café, salgados e o melhor espaço para reuniões no Parque dos Carajás.">
   <meta property="og:image" content="assets/tostada.webp">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/salao.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,700..900&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,800..900&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CafeOrCoffeeShop",
+    "@type": ["CafeOrCoffeeShop", "LocalBusiness"],
     "name": "Coffeemeet",
-    "description": "Cafeteria e coworking em Parauapebas.",
+    "alternateName": "Coffeemeet Parauapebas",
+    "description": "Cafeteria e coworking em Parauapebas, no Parque dos Carajás. Cafés, salgados, doces, brunch e espaço para reuniões, trabalho e eventos.",
+    "slogan": "O papo é bom. O intervalo é melhor.",
+    "image": "assets/fachada.webp",
+    "servesCuisine": ["Café", "Lanches", "Brunch"],
     "address": {"@type": "PostalAddress", "streetAddress": "Av. F, Qd 97, Lt 24 - Parque dos Carajás", "addressLocality": "Parauapebas", "addressRegion": "PA", "addressCountry": "BR"},
+    "areaServed": "Parauapebas",
+    "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Coworking", "value": true}, {"@type": "LocationFeatureSpecification", "name": "Espaço para reuniões", "value": true}],
     "sameAs": ["https://www.instagram.com/coffeemeetparauapebas/"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Onde fica a Coffeemeet em Parauapebas?", "acceptedAnswer": {"@type": "Answer", "text": "Na Av. F, Qd 97, Lt 24, no bairro Parque dos Carajás, em Parauapebas (PA)."}},
+      {"@type": "Question", "name": "A Coffeemeet tem coworking?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. A Coffeemeet é cafeteria e coworking: dá para trabalhar, fazer reuniões e reservar o espaço para encontros e eventos."}},
+      {"@type": "Question", "name": "O que é o Barato do Dia?", "acceptedAnswer": {"@type": "Answer", "text": "É um salgado diferente a cada dia, de segunda a sábado, por R$ 11,90."}},
+      {"@type": "Question", "name": "Como reservar o espaço?", "acceptedAnswer": {"@type": "Answer", "text": "Pelo WhatsApp: informe a data, o período, quantas pessoas e o tipo de uso, e a equipe confirma a disponibilidade."}}
+    ]
   }
   </script>
 </head>
 <body>
 
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <!-- logo: a xícara vista de cima -->
     <symbol id="logo" viewBox="0 0 100 100">
       <circle cx="50" cy="50" r="49" fill="#fff"/>
       <circle cx="50" cy="50" r="42" fill="#0e0c0a"/>
@@ -38,6 +63,10 @@
     </symbol>
     <symbol id="wa" viewBox="0 0 32 32"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c0-.2-.3-.3-.6-.4Z"/></symbol>
     <symbol id="arrow" viewBox="0 0 160 60"><path d="M4 40C40 8 100 4 150 26M150 26l-20-14M150 26l-24 8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="menuic" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 9h6M9 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.5 2.9 6 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.2 1.3-6.6-4.9-4.6 6.6-.8z"/></symbol>
   </svg>
 
   <!-- ============ NAV ============ -->
@@ -47,13 +76,14 @@
       <span class="brand__name">coffeemeet</span>
     </a>
     <nav class="nav__links" aria-label="Seções">
-      <a href="#barato">Barato do Dia</a>
       <a href="#cardapio">Cardápio</a>
+      <a href="#barato">Barato do Dia</a>
       <a href="#coworking">Coworking</a>
-      <a href="#visite">Visite</a>
-      <a class="btn nav__cta-m" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Chama no WhatsApp</a>
+      <a href="#reservas">Reservas &amp; eventos</a>
+      <a href="#visite">Como chegar</a>
+      <a class="btn btn--yellow nav__cta-m" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Falar no WhatsApp</a>
     </nav>
-    <a class="btn btn--sm nav__cta" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Chama no WhatsApp</a>
+    <a class="btn btn--sm btn--yellow nav__cta" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> WhatsApp</a>
     <button class="nav__burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
   </header>
 
@@ -61,20 +91,25 @@
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="hero__copy">
+      <p class="hero__kicker"><span>Cafeteria</span><b>+</b><span>Coworking</span><em>em Parauapebas</em></p>
       <h1 class="hero__title">
         <span class="hero__serif">O papo é bom.</span>
         <span class="hero__cond">O intervalo<br>é melhor.</span>
       </h1>
-      <p class="pill">Chama pra Coffeemeet.</p>
-      <p class="hero__sub">Café tirado na hora, salgados quentinhos e um coworking pra quando o papo vira reunião. No Parque dos Carajás.</p>
+      <p class="hero__sub">Café tirado na hora, salgados, doces e brunch — e um espaço pronto pra trabalhar, receber clientes e fazer reuniões. Tudo no Parque dos Carajás.</p>
       <div class="hero__ctas">
-        <a class="btn btn--yellow btn--xl" href="#barato">Ver o Barato de hoje</a>
-        <a class="btn btn--ghost" href="#coworking">Reservar pra reunião</a>
+        <a class="btn btn--yellow btn--xl" href="#cardapio"><svg><use href="#menuic"/></svg> Ver cardápio</a>
+        <a class="btn btn--ghost btn--xl" href="#coworking"><svg><use href="#cal"/></svg> Reservar coworking</a>
       </div>
+      <a class="hero__wa" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> ou fale com a gente no WhatsApp →</a>
+      <ul class="hero__facts">
+        <li><b>Eleita</b> a melhor cafeteria da cidade</li>
+        <li><b>+8 mil</b> seguidores no Instagram</li>
+        <li><b>R$ 11,90</b> o Barato do Dia</li>
+      </ul>
     </div>
 
-    <!-- a xícara do logo, vista de cima: o "café" é o vídeo -->
-    <div class="cup" aria-hidden="false">
+    <div class="cup">
       <div class="cup__sun"></div>
       <div class="cup__plate">
         <svg class="cup__ring" viewBox="0 0 300 300" aria-hidden="true">
@@ -88,39 +123,63 @@
           </video>
         </div>
       </div>
-      <p class="cup__badge"><b>Eleita</b> a melhor cafeteria da cidade</p>
+      <a class="cup__badge" href="#barato"><b>Barato</b> do Dia<br><strong>R$ 11,90</strong></a>
     </div>
   </section>
 
-  <div class="ticker" aria-hidden="true">
-    <div class="ticker__track">
-      <span>Bebidas quentes</span><i></i><span>Bebidas geladas</span><i></i><span>Salgados</span><i></i><span>Doces</span><i></i><span>Brunch</span><i></i><span>Coworking</span><i></i>
-      <span>Bebidas quentes</span><i></i><span>Bebidas geladas</span><i></i><span>Salgados</span><i></i><span>Doces</span><i></i><span>Brunch</span><i></i><span>Coworking</span><i></i>
-    </div>
-  </div>
+  <!-- duas portas de entrada: café ou trabalho -->
+  <nav class="doors" aria-label="O que você procura?">
+    <a class="door door--cafe" href="#cardapio">
+      <img src="assets/ig-capu.webp" alt="" width="420" height="420" loading="lazy" decoding="async">
+      <span class="door__k">Vim pelo café</span>
+      <span class="door__t">Cafés, salgados, doces e brunch</span>
+      <span class="door__go">Ver cardápio →</span>
+    </a>
+    <a class="door door--work" href="#coworking">
+      <img src="assets/notebook.webp" alt="" width="540" height="960" loading="lazy" decoding="async">
+      <span class="door__k">Vim trabalhar</span>
+      <span class="door__t">Coworking, reuniões e eventos</span>
+      <span class="door__go">Ver planos →</span>
+    </a>
+  </nav>
 
   <!-- ============ BARATO DO DIA ============ -->
-  <section class="barato" id="barato">
-    <div class="board reveal">
-      <div class="board__head">
-        <h2 class="board__title"><span>Barato</span><span>do Dia</span></h2>
-        <p class="board__price"><small>R$</small>11<sup>,90</sup></p>
+  <section class="barato" id="barato" aria-labelledby="barato-t">
+    <div class="barato__card reveal">
+      <figure class="barato__img" id="baratoFig">
+        <img id="baratoImg" src="assets/tostada.webp" alt="" width="1122" height="480" loading="lazy" decoding="async">
+        <span class="barato__stamp">só hoje</span>
+      </figure>
+      <div class="barato__body">
+        <p class="barato__k" id="baratoK">Barato do Dia</p>
+        <h2 class="barato__t" id="barato-t"><span id="baratoItem">—</span></h2>
+        <p class="barato__call" id="baratoCall">Um salgado diferente por dia, de segunda a sábado.</p>
+        <div class="barato__price"><small>R$</small>11<sup>,90</sup><span>com aquele cafezinho do lado</span></div>
+        <div class="barato__ctas">
+          <a class="btn btn--dark btn--xl" id="baratoCta" data-wa="Olá! Quero o Barato do Dia de hoje." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Pedir pelo WhatsApp</a>
+          <button class="btn btn--line" id="weekToggle" aria-expanded="false" aria-controls="week">Ver a semana</button>
+        </div>
       </div>
-      <div class="today" id="today" aria-live="polite">
-        <p class="today__k" id="todayK">Hoje</p>
-        <p class="today__item" id="todayItem">—</p>
-        <a class="btn btn--yellow" id="todayCta" data-wa="Olá! Quero o Barato do Dia de hoje." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Quero o de hoje</a>
-      </div>
-      <ol class="week" id="week"></ol>
-      <p class="board__note">Um salgado diferente por dia, de segunda a sábado.</p>
     </div>
-    <figure class="barato__img reveal">
-      <img src="assets/tostada.webp" alt="Tostada de pepperoni com queijo derretido ao lado de um cappuccino coffeemeet" width="1122" height="480" loading="lazy" decoding="async">
-      <figcaption class="scribble">segunda é dia<br>dessa aqui ↑</figcaption>
-    </figure>
+    <ol class="week" id="week" hidden></ol>
   </section>
 
-  <!-- ============ PLOT TWIST ============ -->
+  <!-- ============ CARDÁPIO ============ -->
+  <section class="cardapio" id="cardapio" aria-labelledby="cardapio-t">
+    <header class="head reveal">
+      <p class="eyebrow">Cardápio Coffeemeet</p>
+      <h2 class="title" id="cardapio-t">O que vai ser <span class="hl">hoje?</span></h2>
+      <p class="lead">Cafés tirados na hora, bebidas geladas, salgados, doces e brunch. Escolha a categoria:</p>
+    </header>
+    <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="tabs"></div>
+    <div class="cards" id="cards" aria-live="polite"></div>
+    <div class="cardapio__foot">
+      <p>Valores podem variar. Dúvidas ou encomendas?</p>
+      <a class="btn btn--dark" data-wa="Olá! Vi o cardápio no site e queria tirar uma dúvida." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Perguntar no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ============ PLOT TWIST + BARISTA ============ -->
   <section class="twist">
     <div class="twist__copy reveal">
       <p class="tag">Mude o ritmo.</p>
@@ -139,73 +198,106 @@
     </div>
   </section>
 
-  <!-- ============ CARDÁPIO ============ -->
-  <section class="cardapio" id="cardapio">
-    <header class="head reveal">
-      <p class="eyebrow">Cardápio</p>
-      <h2 class="title">O que vai ser <span class="hl">hoje?</span></h2>
-    </header>
-    <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="tabs"></div>
-    <div class="menu" id="menu" aria-live="polite"></div>
-    <p class="cardapio__note">Cardápio completo e valores no balcão e nos destaques do <a href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener">Instagram</a>.</p>
-  </section>
-
   <!-- ============ COWORKING ============ -->
-  <section class="cowork" id="coworking">
-    <div class="cowork__copy reveal">
-      <h2 class="cowork__title">Essa reunião podia ser <mark>um café.</mark></h2>
-      <p class="cowork__sub">E aqui pode ser os dois.</p>
-      <p class="cowork__kicker">Cafeteria + coworking.</p>
-      <p class="cowork__text">O melhor espaço para reuniões da cidade: mesas pra trabalhar, salão pra receber o cliente e espaço pra encontros de equipe, aulas e eventos — com café de verdade a cada pausa.</p>
-      <div class="cowork__pics">
-        <img src="assets/notebook.webp" alt="Pessoa trabalhando no notebook numa mesa da Coffeemeet" width="540" height="960" loading="lazy" decoding="async">
-        <img src="assets/salao.webp" alt="Salão da Coffeemeet com mesas de madeira e luminárias" width="540" height="960" loading="lazy" decoding="async">
+  <section class="cowork" id="coworking" aria-labelledby="cowork-t">
+    <div class="cowork__intro">
+      <div class="cowork__copy reveal">
+        <p class="eyebrow">Coworking em Parauapebas</p>
+        <h2 class="cowork__title" id="cowork-t">Essa reunião podia ser <mark>um café.</mark></h2>
+        <p class="cowork__sub">E aqui pode ser os dois.</p>
+        <p class="cowork__text">Trabalhe com café de verdade a poucos passos, receba clientes num ambiente bonito ou reúna o time — é só reservar pelo WhatsApp.</p>
       </div>
+      <ol class="how reveal" aria-label="Como funciona">
+        <li><b>1</b><div><h3>Escolha o formato</h3><p>Avulso, diária, pacote ou reunião.</p></div></li>
+        <li><b>2</b><div><h3>Reserve pelo WhatsApp</h3><p>Diga a data, o período e quantas pessoas.</p></div></li>
+        <li><b>3</b><div><h3>É só chegar</h3><p>Abra o notebook e peça seu café.</p></div></li>
+      </ol>
     </div>
 
-    <!-- pauta: o caderno da arte vira o formulário de reserva -->
-    <form class="pauta reveal" id="pauta" autocomplete="off">
+    <div class="plans" id="plans"></div>
+
+    <div class="cowork__bottom">
+      <ul class="perks reveal" id="perks"></ul>
+      <div class="cowork__hours reveal" id="hours"></div>
+    </div>
+  </section>
+
+  <!-- ============ RESERVAS & EVENTOS ============ -->
+  <section class="reservas" id="reservas" aria-labelledby="reservas-t">
+    <div class="reservas__copy reveal">
+      <p class="eyebrow eyebrow--y">Reservas &amp; eventos</p>
+      <h2 class="title title--light" id="reservas-t">Tem ocasião? <span class="hl hl--y">Tem espaço.</span></h2>
+      <p class="lead lead--light">A Coffeemeet recebe de reunião de duas pessoas a encontros de equipe, palestras e comemorações. Conte o que você precisa e a gente monta o orçamento.</p>
+      <ul class="occasions">
+        <li><img src="assets/reuniao.webp" alt="" width="1000" height="530" loading="lazy"><span>Reuniões de trabalho</span></li>
+        <li><img src="assets/conversa.webp" alt="" width="480" height="480" loading="lazy"><span>Encontros e networking</span></li>
+        <li><img src="assets/mesa.webp" alt="" width="540" height="960" loading="lazy"><span>Mesa posta pro grupo</span></li>
+        <li><img src="assets/salao.webp" alt="" width="540" height="960" loading="lazy"><span>Palestras, aulas e eventos</span></li>
+      </ul>
+    </div>
+
+    <form class="pauta reveal" id="pauta" autocomplete="on">
       <div class="pauta__spiral" aria-hidden="true"></div>
-      <p class="pauta__h">Reunião:</p>
+      <p class="pauta__h">Pauta da reserva:</p>
+      <fieldset>
+        <legend>Pra quê?</legend>
+        <div class="opts">
+          <label><input type="radio" name="tipo" value="coworking (trabalhar)" checked><span>Coworking</span></label>
+          <label><input type="radio" name="tipo" value="reunião"><span>Reunião</span></label>
+          <label><input type="radio" name="tipo" value="evento / encontro"><span>Evento</span></label>
+        </div>
+      </fieldset>
       <fieldset>
         <legend>Quantas pessoas?</legend>
-        <div class="opts" data-name="pessoas">
-          <label><input type="radio" name="pessoas" value="só eu" checked><span>Só eu</span></label>
+        <div class="opts">
+          <label><input type="radio" name="pessoas" value="1 pessoa" checked><span>1</span></label>
           <label><input type="radio" name="pessoas" value="2 a 4 pessoas"><span>2–4</span></label>
           <label><input type="radio" name="pessoas" value="5 a 10 pessoas"><span>5–10</span></label>
           <label><input type="radio" name="pessoas" value="mais de 10 pessoas"><span>10+</span></label>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>Pra quê?</legend>
-        <div class="opts">
-          <label><input type="radio" name="tipo" value="trabalhar (coworking)" checked><span>Trabalhar</span></label>
-          <label><input type="radio" name="tipo" value="reunião com cliente"><span>Reunião</span></label>
-          <label><input type="radio" name="tipo" value="encontro de equipe / evento"><span>Evento</span></label>
-        </div>
-      </fieldset>
-      <fieldset class="pauta__when">
+      <fieldset class="pauta__row">
         <legend>Quando?</legend>
         <input type="date" name="data" id="data" aria-label="Data">
         <div class="opts">
           <label><input type="radio" name="periodo" value="manhã" checked><span>Manhã</span></label>
           <label><input type="radio" name="periodo" value="tarde"><span>Tarde</span></label>
+          <label><input type="radio" name="periodo" value="a combinar"><span>A combinar</span></label>
         </div>
       </fieldset>
-      <ul class="pauta__check" aria-hidden="true">
-        <li>✓ Planejamento</li><li>✓ Ideias</li><li>✓ Próximos passos</li><li>✓ Café ☺</li>
-      </ul>
-      <button class="btn btn--dark btn--block" type="submit"><svg><use href="#wa"/></svg> Reservar pelo WhatsApp</button>
-      <p class="pauta__note">A equipe confirma a disponibilidade com você.</p>
+      <label class="pauta__field"><span>Seu nome</span><input type="text" name="nome" autocomplete="name" placeholder="Como podemos te chamar?"></label>
+      <label class="pauta__field"><span>Algum detalhe? <i>(opcional)</i></span><input type="text" name="obs" placeholder="Ex.: preciso de café pra todos"></label>
+      <button class="btn btn--dark btn--block btn--xl" type="submit"><svg><use href="#wa"/></svg> Reservar agora</button>
+      <p class="pauta__note">Resposta pelo WhatsApp. A equipe confirma disponibilidade e valores.</p>
     </form>
   </section>
 
-  <!-- ============ COFFEEMEET TIME ============ -->
-  <section class="time">
-    <div class="time__wall">
-      <p class="neon" aria-label="coffeemeet time"><span>coffeemeet</span><span>time</span></p>
-      <p class="time__sub">Todo dia tem um. Acompanhe no Instagram.</p>
-      <a class="btn btn--yellow" href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener">@coffeemeetparauapebas</a>
+  <!-- ============ EXPERIÊNCIA ============ -->
+  <section class="exp" aria-labelledby="exp-t">
+    <header class="head reveal">
+      <p class="eyebrow">A experiência</p>
+      <h2 class="title" id="exp-t">Um dia na <span class="hl">Coffeemeet.</span></h2>
+    </header>
+    <ol class="day">
+      <li class="day__i day__i--tall reveal"><img src="assets/rua.webp" alt="Chegando à Coffeemeet pela calçada do Parque dos Carajás" width="540" height="960" loading="lazy" decoding="async"><p><b>Chegada</b> O cheiro de café chega antes de você.</p></li>
+      <li class="day__i reveal"><img src="assets/croissant.webp" alt="Croissant com café na xícara coffeemeet" width="480" height="480" loading="lazy" decoding="async"><p><b>Primeiro café</b> Croissant quentinho e espresso.</p></li>
+      <li class="day__i reveal"><img src="assets/notebook.webp" alt="Notebook aberto numa mesa de madeira" width="540" height="960" loading="lazy" decoding="async"><p><b>Foco</b> Mesa boa, notebook aberto, café do lado.</p></li>
+      <li class="day__i day__i--mesa reveal"><img src="assets/mesa.webp" alt="Mesa vista de cima com cafés e salgados" width="540" height="960" loading="lazy" decoding="async"><p><b>A turma chegou</b> Mesa cheia de café e salgado.</p></li>
+      <li class="day__i day__i--wide reveal"><img src="assets/conversa.webp" alt="Duas amigas conversando numa mesa da Coffeemeet" width="480" height="480" loading="lazy" decoding="async"><p><b>Intervalo</b> O papo é bom. O intervalo é melhor.</p></li>
+      <li class="day__i day__i--neon reveal"><img src="assets/neon.webp" alt="Neon coffeemeet time na parede de granito" width="540" height="960" loading="lazy" decoding="async"><p><b>coffeemeet time</b> Todo dia tem um.</p></li>
+    </ol>
+  </section>
+
+  <!-- ============ PROVA SOCIAL ============ -->
+  <section class="social" id="avaliacoes" aria-labelledby="social-t">
+    <div class="social__head reveal">
+      <p class="social__award"><svg><use href="#star"/></svg> Eleita a melhor cafeteria da cidade</p>
+      <h2 class="title" id="social-t">Quem vem, <span class="hl">volta.</span></h2>
+    </div>
+    <div class="quotes" id="quotes"></div>
+    <div class="social__ctas reveal">
+      <a class="btn btn--dark" id="googleReviews" href="#" target="_blank" rel="noopener"><svg><use href="#star"/></svg> Ver avaliações no Google</a>
+      <a class="btn btn--line" href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener">Ver no Instagram</a>
     </div>
     <div class="feed">
       <a href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener"><img src="assets/ig-latte.webp" alt="Leite vaporizado sendo servido numa xícara coffeemeet" width="420" height="420" loading="lazy" decoding="async"></a>
@@ -218,25 +310,33 @@
   </section>
 
   <!-- ============ VISITE ============ -->
-  <section class="visite" id="visite">
-    <figure class="visite__img reveal"><img src="assets/fachada.webp" alt="Fachada da Coffeemeet cafeteria e coworking" width="540" height="960" loading="lazy" decoding="async"></figure>
-    <div class="visite__copy reveal">
-      <p class="eyebrow">Visite</p>
-      <h2 class="title">Chama pra <span class="hl">Coffeemeet.</span></h2>
-      <address class="addr">
-        <b>Av. F, Qd 97, Lt 24</b>
-        <span>Parque dos Carajás · Parauapebas – PA</span>
-      </address>
-      <div class="ctas">
-        <a class="btn btn--dark" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg> Chama no WhatsApp</a>
-        <a class="btn btn--line" href="https://www.google.com/maps/dir/?api=1&destination=Coffeemeet+Av+F+Qd+97+Lt+24+Parque+dos+Caraj%C3%A1s+Parauapebas" target="_blank" rel="noopener">Como chegar</a>
-        <a class="btn btn--line" href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener">Instagram</a>
-      </div>
-      <div class="map">
-        <iframe title="Mapa da Coffeemeet" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          src="https://maps.google.com/maps?q=Coffeemeet%20Av%20F%20Qd%2097%20Lt%2024%20Parque%20dos%20Caraj%C3%A1s%20Parauapebas&z=16&output=embed"></iframe>
+  <section class="visite" id="visite" aria-labelledby="visite-t">
+    <div class="visite__card reveal">
+      <figure class="visite__img"><img src="assets/fachada.webp" alt="Fachada da Coffeemeet cafeteria e coworking em Parauapebas" width="540" height="960" loading="lazy" decoding="async"></figure>
+      <div class="visite__copy">
+        <p class="eyebrow">Como chegar</p>
+        <h2 class="visite__t" id="visite-t">Av. F, Qd 97, Lt 24</h2>
+        <p class="visite__sub"><svg><use href="#pin"/></svg> Parque dos Carajás · Parauapebas – PA</p>
+        <div class="ctas">
+          <a class="btn btn--yellow btn--xl" id="routeBtn" href="#" target="_blank" rel="noopener"><svg><use href="#pin"/></svg> Como chegar</a>
+          <a class="btn btn--line" id="wazeBtn" href="#" target="_blank" rel="noopener">Abrir no Waze</a>
+          <button class="btn btn--line" id="copyAddr" type="button">Copiar endereço</button>
+        </div>
+        <p class="visite__hours" id="visiteHours"></p>
       </div>
     </div>
+    <div class="map reveal">
+      <iframe title="Mapa da Coffeemeet em Parauapebas" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapFrame"></iframe>
+    </div>
+  </section>
+
+  <!-- ============ FAQ (SEO local) ============ -->
+  <section class="faq" aria-labelledby="faq-t">
+    <h2 class="faq__t" id="faq-t">Perguntas frequentes</h2>
+    <details><summary>Onde fica a Coffeemeet em Parauapebas?</summary><p>Na Av. F, Qd 97, Lt 24, no Parque dos Carajás. Toque em <a href="#visite">Como chegar</a> pra abrir a rota no celular.</p></details>
+    <details><summary>A Coffeemeet tem coworking?</summary><p>Tem. Somos cafeteria e coworking: dá pra trabalhar, fazer reuniões e reservar o espaço para encontros e eventos. <a href="#coworking">Veja os formatos</a>.</p></details>
+    <details><summary>Dá pra fazer reunião ou evento aí?</summary><p>Dá. Monte sua <a href="#reservas">pauta de reserva</a> e a equipe responde pelo WhatsApp com disponibilidade e valores.</p></details>
+    <details><summary>O que é o Barato do Dia?</summary><p>Um salgado diferente a cada dia, de segunda a sábado, por R$ 11,90. <a href="#barato">Veja o de hoje</a>.</p></details>
   </section>
   </main>
 
@@ -244,10 +344,18 @@
     <svg class="foot__logo"><use href="#logo"/></svg>
     <p class="foot__name">coffeemeet</p>
     <p class="foot__tag">Café, salgados e boas conversas.</p>
-    <p class="foot__small">Cafeteria &amp; Coworking · Av. F, Qd 97, Lt 24 · Parque dos Carajás · Parauapebas – PA · © <span id="ano">2026</span></p>
+    <nav class="foot__nav" aria-label="Rodapé">
+      <a href="#cardapio">Cardápio</a><a href="#coworking">Coworking</a><a href="#reservas">Reservas</a><a href="#visite">Como chegar</a><a href="https://www.instagram.com/coffeemeetparauapebas/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <p class="foot__small">Coffeemeet · Cafeteria e Coworking em Parauapebas · Av. F, Qd 97, Lt 24 · Parque dos Carajás · Parauapebas – PA · © <span id="ano">2026</span></p>
   </footer>
 
-  <a class="fab" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg><span>Chama no WhatsApp</span></a>
+  <!-- barra fixa (celular) / botão flutuante (desktop) -->
+  <div class="dock" role="navigation" aria-label="Ações rápidas">
+    <a class="dock__btn dock__btn--alt" href="#reservas"><svg><use href="#cal"/></svg><span>Reservar</span></a>
+    <a class="dock__btn dock__btn--alt" href="#visite"><svg><use href="#pin"/></svg><span>Chegar</span></a>
+    <a class="dock__btn dock__btn--wa" data-wa="Olá! Vim pelo site da Coffeemeet." href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg><span>WhatsApp</span></a>
+  </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="script.js" defer></script>
